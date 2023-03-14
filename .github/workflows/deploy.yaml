@@ -7,6 +7,6 @@ jobs:
     container: bitnami/argo-workflow-cli
     steps:
      - name: Login in argocd      
-        run: |
-          argocd login SERVER --username admin --passowrd xD
+       run: |
+         argocd login SERVER --username admin --password xD
     
