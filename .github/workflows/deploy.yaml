@@ -4,7 +4,7 @@ jobs:
   deploy_app_job:
     runs-on: ubuntu-latest
     name: A job to upload app using argocd
-    container: bitnami/argo-workflow-cli
+    container: argoproj/argocli
     steps:
      - name: Login in argocd      
        run: |
