@@ -4,7 +4,7 @@ jobs:
   deploy_app_job:
     runs-on: ubuntu-latest
     name: Upload app using argocd
-    container: argoproj/argocli:v2.4.26
+    container: argoproj/argocd:v2.4.26
     steps:
      - name: Login in argocd      
        run: |
