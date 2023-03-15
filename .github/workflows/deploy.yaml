@@ -3,8 +3,8 @@ on: workflow_dispatch
 jobs:
   deploy_app_job:
     runs-on: ubuntu-latest
-    name: A job to upload app using argocd
-    container: argoproj/argocli
+    name: Upload app using argocd
+    container: argoproj/argocli:v2.6.5
     steps:
      - name: Login in argocd      
        run: |
