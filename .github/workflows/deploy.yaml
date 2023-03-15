@@ -7,5 +7,5 @@ jobs:
     container: argoproj/argocd:v2.6.5
     steps:
      - name: Login in argocd      
-       run: argocd version
+       run: argocd version --client
     
