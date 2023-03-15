@@ -8,5 +8,5 @@ jobs:
     steps:
      - name: Login in argocd      
        run: |
-         argocd login SERVER --username admin --password xD
+         argocd version
     
